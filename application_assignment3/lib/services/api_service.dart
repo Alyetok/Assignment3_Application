@@ -6,8 +6,7 @@ import '../models/task.dart';
 import '../models/user.dart';
 
 class ApiService {
-  // Android emulator can access the computer's localhost using 10.0.2.2.
-  // For a real phone, replace this with your computer IP address.
+  
   static const String baseUrl = 'http://localhost/application_assignment3/api';
 
   static const Map<String, String> _headers = {
